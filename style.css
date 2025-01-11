@@ -1,12 +1,25 @@
 h1 {
-  font-family: Fjord One;
+  font-family: "Fjord One";
 }
 
-.playlist1 li {
+h3 {
+  padding: 0 0 20px 0;
+  margin: 0;
+}
+
+.playlistElement {
+  display: inline-block;
+  list-style-position: inside;
+  padding: 0 0 0 20px;
+  margin: 0;
+  overflow: hidden;
+  width: max-content;
+}
+.playlistElement li {
   color: black;
 }
 
-.playlist1 li a {
+.playlistElement li a {
   display: inline-block;
   color: black;
   text-decoration: none;
@@ -14,7 +27,14 @@ h1 {
   margin: 0;
 }
 
-.playlists .playlist1 li a:hover {
+.playlists li a:hover {
   cursor: pointer;
   font-style: italic;
+}
+
+.p1 {
+  display: inline-block;
+  border: 1px solid red;
+  padding: 0;
+  margin: 0;
 }
